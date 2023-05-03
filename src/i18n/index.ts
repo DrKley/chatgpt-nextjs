@@ -2,11 +2,12 @@ import { NextI18n } from './next-i18n';
 
 export const languages = {
   zh: { name: '简体中文' },
-  en: { name: 'English' }
+  en: { name: 'English' },
+  es: { name: 'Espanol' }
 };
 
 export const supportedLanguages = Object.keys(languages);
-export const fallbackLng = 'zh';
+export const fallbackLng = 'en';
 
 const i18n = new NextI18n({
   supportedLanguages,

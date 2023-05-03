@@ -56,11 +56,11 @@ function PromptLibModal() {
                   <Tabs.Item title={t('yourPrompt')}>
                     <CustomPrompt />
                   </Tabs.Item>
-                  <Tabs.Item active={true} title="中文">
-                    <PromptContent content={cnPrompts} />
-                  </Tabs.Item>
-                  <Tabs.Item title="English">
+                  <Tabs.Item active={true} title="English">
                     <PromptContent content={enPrompts} />
+                  </Tabs.Item>
+                  <Tabs.Item title="Chinese">
+                    <PromptContent content={cnPrompts} />
                   </Tabs.Item>
                 </Tabs.Group>
                 <div className="flex justify-center">
