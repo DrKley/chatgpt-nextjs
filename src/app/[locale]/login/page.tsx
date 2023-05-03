@@ -24,7 +24,7 @@ function Login() {
             <p className="text-center text-sm font-black">{t('login')}</p>
             <div className="flex flex-col gap-4">
               <button
-                onClick={() => signIn('google', { callbackUrl: '/' })}
+                onClick={() => signIn('google')}
                 className="relative flex w-full items-center justify-center
               rounded-full border border-[#878787] bg-transparent px-8 py-2 text-center text-base font-bold"
               >
